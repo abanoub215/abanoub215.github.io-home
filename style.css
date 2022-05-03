@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(home/21.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1250px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-family: arial;
+  
+} 
+.menu{
+    width: 380px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: darkred;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 65px;
+    padding-left: 0px;
+    margin-top: 9%;
+    letter-spacing: 2px;   
+
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    list-style: none;
+
+
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4S ease;
+}
+.cn:hover{
+    background-color: darkred;
+
+}
+
+.card{
+    width:200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 1px 25px;
+    box-sizing:border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:trasnfrom 0.5s ;
+    margin-right: 100px;
+}
+.card1{
+    background-image: url(home/4.jpg);
+}
+.card2{
+    background-image: url(home/5.jpeg);
+}
+.card3{
+    background-image: url(home/13.jpg);
+}
+.card4{
+    background-image: url(home/7.jpg);
+}
+.card:hover{
+transform: translateY(-10px);
+}
