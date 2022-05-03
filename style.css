@@ -3,17 +3,16 @@
     padding: 0;
 }
 .main{
-    width: 1349px;
+    width: 1348px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(home/21.jpg);
     background-position: center;
-    background-size: 100% 100%;
-    height: 3100px;
-    @media(max-width: 900px) 
+    background-size:cover;
+    height: 3000px;
     
    
 }
 .navbar{
-    width: 1250px;
+    width: 1200px;
     height: 75px;
     margin: auto;
 
